@@ -1,26 +1,24 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <gugudan />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import gugudan from './components/gugudan.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    gugudan
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  *{
+    margin: 0;
+    padding: 0;
+    color: #000;
+  }
 </style>
